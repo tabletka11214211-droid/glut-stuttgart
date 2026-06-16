@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>GLUT · Pizza & Burger aus dem Holzofen — Stuttgart</title>
-<meta name="description" content="GLUT Stuttgart — handgemachte Pizza & Burger aus dem Holzofen. Frische Zutaten, Tischreservierung und Lieferung in ganz Stuttgart." />
+<title>GLUT · Wood-Fired Pizza & Burgers — Stuttgart</title>
+<meta name="description" content="GLUT Stuttgart — handmade wood-fired pizza & burgers. Fresh ingredients, table reservation and delivery across Stuttgart." />
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -516,20 +516,20 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
     <a href="#top" class="logo">GLUT<span class="dot">.</span></a>
     <nav>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#top">Start</a></li>
-        <li><a href="#menu">Speisekarte</a></li>
-        <li><a href="#reservierung">Reservierung</a></li>
-        <li><a href="#lieferung">Lieferung</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservierung">Reservation</a></li>
+        <li><a href="#lieferung">Delivery</a></li>
+        <li><a href="#kontakt">Contact</a></li>
       </ul>
     </nav>
     <div class="nav-right">
-      <div class="lang"><a class="active">DE</a><a href="en/">EN</a></div>
-      <button class="cart-btn" id="cartBtn" aria-label="Warenkorb öffnen">
+      <div class="lang"><a href="../">DE</a><a class="active">EN</a></div>
+      <button class="cart-btn" id="cartBtn" aria-label="Open cart">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-        Warenkorb <span class="cart-count" id="cartCount">0</span>
+        Cart <span class="cart-count" id="cartCount">0</span>
       </button>
-      <button class="burger" id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
@@ -550,32 +550,32 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
 <section class="hero">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow reveal">Holzofen · Stuttgart-Mitte</span>
-      <h1 class="reveal">Echter Geschmack<br/>aus dem <span class="accent-i">Holzofen</span></h1>
-      <p class="lead reveal">Handgemachte Pizza und saftige Burger, gebacken bei 400&nbsp;°C über Buchenholz. Frische Zutaten, italienische Tradition – mitten in Stuttgart.</p>
+      <span class="eyebrow reveal">Wood-fired oven · Stuttgart</span>
+      <h1 class="reveal">Real flavour<br/>from the <span class="accent-i">wood-fired oven</span></h1>
+      <p class="lead reveal">Handmade pizza and juicy burgers, baked at 400&nbsp;°C over beechwood. Fresh ingredients, Italian tradition – in the heart of Stuttgart.</p>
       <div class="hero-cta reveal">
         <a href="#menu" class="btn btn-primary">
-          Speisekarte ansehen
+          View menu
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
-        <a href="#reservierung" class="btn btn-ghost">Tisch reservieren</a>
+        <a href="#reservierung" class="btn btn-ghost">Book a table</a>
       </div>
       <div class="hero-stats reveal">
-        <div><div class="num">400°C</div><div class="lbl">Holzofen</div></div>
-        <div><div class="num">25 Min</div><div class="lbl">Lieferzeit Ø</div></div>
-        <div><div class="num">4,9 ★</div><div class="lbl">1.200+ Gäste</div></div>
+        <div><div class="num">400°C</div><div class="lbl">Wood oven</div></div>
+        <div><div class="num">25 min</div><div class="lbl">Avg. delivery</div></div>
+        <div><div class="num">4.9 ★</div><div class="lbl">1,200+ guests</div></div>
       </div>
     </div>
 
     <div class="hero-visual reveal">
       <div class="dish-glow float-dish">
         <img src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?q=75&auto=format&fit=crop&w=720&h=720"
-             alt="Holzofen-Pizza Margherita" width="720" height="720"
+             alt="Wood-fired Margherita pizza" width="720" height="720"
              onerror="this.style.display='none';this.parentElement.classList.add('img-fallback')" />
       </div>
       <div class="badge-offer">
         <div class="tag">%</div>
-        <div><div class="t1">Mittagsangebot</div><div class="t2">−20% bis 15&nbsp;Uhr</div></div>
+        <div><div class="t1">Lunch special</div><div class="t2">−20% until 3&nbsp;pm</div></div>
       </div>
     </div>
   </div>
@@ -587,15 +587,15 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
   <div class="wrap usp-grid">
     <div class="usp-card reveal">
       <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></div>
-      <div><h4>Echter Holzofen</h4><p>Gebacken über Buchenholz bei 400&nbsp;°C – knusprig &amp; rauchig.</p></div>
+      <div><h4>Real wood-fired oven</h4><p>Baked over beechwood at 400&nbsp;°C – crispy &amp; smoky.</p></div>
     </div>
     <div class="usp-card reveal">
       <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg></div>
-      <div><h4>Frisch &amp; regional</h4><p>Teig 48&nbsp;h gereift, Zutaten täglich vom Markt.</p></div>
+      <div><h4>Fresh &amp; local</h4><p>Dough matured for 48&nbsp;h, ingredients fresh from the market daily.</p></div>
     </div>
     <div class="usp-card reveal">
       <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8zM5.5 19a2.5 2.5 0 1 0 0 .01M18.5 19a2.5 2.5 0 1 0 0 .01"/></svg></div>
-      <div><h4>Lieferung in Stuttgart</h4><p>In ganz Stuttgart in Ø 25&nbsp;Minuten bei dir.</p></div>
+      <div><h4>Delivery in Stuttgart</h4><p>Across Stuttgart, at your door in ~25&nbsp;minutes.</p></div>
     </div>
   </div>
 </section>
@@ -604,9 +604,9 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
 <section class="sec-pad" id="menu">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Unsere Karte</span>
-      <h2>Entdecke unsere <span class="accent-i">Spezialitäten</span></h2>
-      <p>Vom Klassiker bis zur Trüffel-Kreation – jedes Gericht frisch zubereitet.</p>
+      <span class="eyebrow">Our menu</span>
+      <h2>Discover our <span class="accent-i">specialities</span></h2>
+      <p>From classics to truffle creations – every dish freshly made.</p>
     </div>
 
     <div class="tabs reveal" id="tabs">
@@ -620,11 +620,11 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
       </button>
       <button class="tab" data-cat="beilagen">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h0a2 2 0 0 0 2-2V2M5 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
-        Beilagen
+        Sides
       </button>
       <button class="tab" data-cat="getranke">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14l-1 7a6 6 0 0 1-12 0L5 3zM12 16v5M8 21h8"/></svg>
-        Getränke
+        Drinks
       </button>
     </div>
 
@@ -636,72 +636,72 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
 <section class="sec-pad" id="reservierung" style="padding-top:30px">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="eyebrow">Reservierung</span>
-      <h2>Sichere dir deinen <span class="accent-i">Tisch</span></h2>
-      <p>Ob Date-Night oder Familienessen – wir halten dir den besten Platz frei.</p>
+      <span class="eyebrow">Reservation</span>
+      <h2>Reserve your <span class="accent-i">table</span></h2>
+      <p>Date night or family dinner – we'll keep the best spot for you.</p>
     </div>
     <div class="reserve-grid">
       <div class="reserve-visual reveal reveal-mask">
-        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=75&auto=format&fit=crop&w=900" alt="Restaurant-Atmosphäre bei GLUT" onerror="this.style.opacity=0"/>
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=75&auto=format&fit=crop&w=900" alt="Restaurant atmosphere at GLUT" onerror="this.style.opacity=0"/>
         <div class="hours">
-          <h4>Öffnungszeiten</h4>
-          <div class="row"><span>Mo – Do</span><b>12:00 – 22:00</b></div>
-          <div class="row"><span>Fr – Sa</span><b>12:00 – 24:00</b></div>
-          <div class="row"><span>Sonntag</span><b>14:00 – 22:00</b></div>
+          <h4>Opening hours</h4>
+          <div class="row"><span>Mon – Thu</span><b>12:00 – 22:00</b></div>
+          <div class="row"><span>Fri – Sat</span><b>12:00 – 24:00</b></div>
+          <div class="row"><span>Sunday</span><b>14:00 – 22:00</b></div>
         </div>
       </div>
 
       <div class="form-card reveal">
         <div id="formInner">
-          <h3>Tisch reservieren</h3>
-          <p class="sub">Antwort innerhalb von 15 Minuten per SMS.</p>
+          <h3>Book a table</h3>
+          <p class="sub">Reply within 15 minutes by text message.</p>
           <form id="resForm" novalidate>
             <div class="field-row">
               <div class="field">
-                <label for="r-date">Datum <span class="req">*</span></label>
+                <label for="r-date">Date <span class="req">*</span></label>
                 <input type="date" id="r-date" required />
-                <span class="msg">Bitte Datum wählen.</span>
+                <span class="msg">Please choose a date.</span>
               </div>
               <div class="field">
-                <label for="r-time">Uhrzeit <span class="req">*</span></label>
+                <label for="r-time">Time <span class="req">*</span></label>
                 <input type="time" id="r-time" required />
-                <span class="msg">Bitte Uhrzeit wählen.</span>
+                <span class="msg">Please choose a time.</span>
               </div>
             </div>
             <div class="field-row">
               <div class="field">
-                <label for="r-guests">Gäste <span class="req">*</span></label>
+                <label for="r-guests">Guests <span class="req">*</span></label>
                 <select id="r-guests" required>
-                  <option value="">Wählen…</option>
-                  <option>1 Person</option><option>2 Personen</option>
-                  <option>3 Personen</option><option>4 Personen</option>
-                  <option>5 Personen</option><option>6+ Personen</option>
+                  <option value="">Select…</option>
+                  <option>1 person</option><option>2 people</option>
+                  <option>3 people</option><option>4 people</option>
+                  <option>5 people</option><option>6+ people</option>
                 </select>
-                <span class="msg">Bitte Personenzahl wählen.</span>
+                <span class="msg">Please choose the party size.</span>
               </div>
               <div class="field">
                 <label for="r-name">Name <span class="req">*</span></label>
-                <input type="text" id="r-name" placeholder="Max Mustermann" required />
-                <span class="msg">Bitte Namen eingeben.</span>
+                <input type="text" id="r-name" placeholder="John Doe" required />
+                <span class="msg">Please enter your name.</span>
               </div>
             </div>
             <div class="field">
-              <label for="r-phone">Telefon <span class="req">*</span></label>
+              <label for="r-phone">Phone <span class="req">*</span></label>
               <input type="tel" id="r-phone" placeholder="+49 711 …" required />
-              <span class="msg">Bitte gültige Telefonnummer eingeben.</span>
+              <span class="msg">Please enter a valid phone number.</span>
             </div>
             <div class="field">
-              <label for="r-note">Anmerkung</label>
-              <textarea id="r-note" placeholder="Allergien, Kinderstuhl, Fensterplatz…"></textarea>
+              <label for="r-note">Note</label>
+              <textarea id="r-note" placeholder="Allergies, high chair, window seat…"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Reservierung anfragen</button>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Request reservation</button>
           </form>
         </div>
         <div class="form-success" id="formSuccess">
           <div class="check"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></div>
-          <h3 style="margin-bottom:.4rem">Vielen Dank!</h3>
-          <p style="color:var(--text-dim)" id="successText">Deine Anfrage ist eingegangen.</p>
-          <button class="btn btn-ghost" style="margin-top:1.4rem" onclick="resetForm()">Neue Reservierung</button>
+          <h3 style="margin-bottom:.4rem">Thank you!</h3>
+          <p style="color:var(--text-dim)" id="successText">Your request has been received.</p>
+          <button class="btn btn-ghost" style="margin-top:1.4rem" onclick="resetForm()">New reservation</button>
         </div>
       </div>
     </div>
@@ -713,18 +713,18 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
   <div class="wrap">
     <div class="deliver-card reveal">
       <div>
-        <span class="eyebrow">Lieferung &amp; Abholung</span>
-        <h2>Frisch aus dem Ofen<br/><span class="accent-i">direkt zu dir</span></h2>
-        <p>Bestelle deine Lieblingspizza online und genieße sie zuhause – heiß, knusprig und in Rekordzeit in ganz Stuttgart.</p>
+        <span class="eyebrow">Delivery &amp; Pickup</span>
+        <h2>Fresh from the oven<br/><span class="accent-i">straight to you</span></h2>
+        <p>Order your favourite pizza online and enjoy it at home – hot, crispy and in record time across Stuttgart.</p>
         <button class="btn btn-primary" onclick="document.getElementById('menu').scrollIntoView()">
-          Jetzt bestellen
+          Order now
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </button>
       </div>
       <div class="deliver-feats">
-        <div class="f"><div class="big">25′</div><div class="sm">Ø Lieferzeit</div></div>
-        <div class="f"><div class="big">15€</div><div class="sm">Mindestbestellung</div></div>
-        <div class="f"><div class="big">0€</div><div class="sm">ab 30€ Lieferkosten</div></div>
+        <div class="f"><div class="big">25′</div><div class="sm">Avg. delivery</div></div>
+        <div class="f"><div class="big">€15</div><div class="sm">Min. order</div></div>
+        <div class="f"><div class="big">€0</div><div class="sm">Free over €30</div></div>
       </div>
     </div>
   </div>
@@ -736,7 +736,7 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
     <div class="foot-grid">
       <div>
         <div class="foot-logo">GLUT<span class="dot">.</span></div>
-        <p>Pizza &amp; Burger aus dem Holzofen.<br/>Handgemacht in Stuttgart, seit 2019.</p>
+        <p>Wood-fired pizza &amp; burgers.<br/>Handmade in Stuttgart since 2019.</p>
         <div class="socials">
           <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
           <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
@@ -744,46 +744,46 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
         </div>
       </div>
       <div>
-        <h5>Speisekarte</h5>
+        <h5>Menu</h5>
         <a href="#menu">Pizza</a>
-        <a href="#menu">Burger</a>
-        <a href="#menu">Beilagen</a>
-        <a href="#menu">Getränke</a>
+        <a href="#menu">Burgers</a>
+        <a href="#menu">Sides</a>
+        <a href="#menu">Drinks</a>
       </div>
       <div>
-        <h5>Kontakt</h5>
+        <h5>Contact</h5>
         <a href="tel:+49711000000">+49 711 000 000</a>
         <a href="mailto:hallo@glut-stuttgart.de">hallo@glut-stuttgart.de</a>
         <p>Königstraße 1<br/>70173 Stuttgart</p>
       </div>
       <div>
-        <h5>So findest du uns</h5>
+        <h5>Find us</h5>
         <div class="map-embed">
-          <iframe title="Standort GLUT Stuttgart" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          <iframe title="GLUT Stuttgart location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             src="https://www.openstreetmap.org/export/embed.html?bbox=9.172%2C48.770%2C9.190%2C48.781&layer=mapnik&marker=48.7758%2C9.1829"></iframe>
         </div>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 GLUT Stuttgart. Alle Rechte vorbehalten.</span>
-      <span>Impressum · Datenschutz · AGB</span>
+      <span>© 2026 GLUT Stuttgart. All rights reserved.</span>
+      <span>Imprint · Privacy · Terms</span>
     </div>
   </div>
 </footer>
 
 <!-- ===================== CART DRAWER ===================== -->
 <div class="scrim" id="scrim"></div>
-<aside class="cart-drawer" id="cartDrawer" aria-label="Warenkorb">
+<aside class="cart-drawer" id="cartDrawer" aria-label="Cart">
   <div class="cart-head">
-    <h3>Dein Warenkorb</h3>
-    <button class="cart-close" id="cartClose" aria-label="Schließen">
+    <h3>Your cart</h3>
+    <button class="cart-close" id="cartClose" aria-label="Close">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
     </button>
   </div>
   <div class="cart-body" id="cartBody"></div>
   <div class="cart-foot">
-    <div class="cart-total"><span class="lbl">Gesamt</span><span class="amt" id="cartTotal">0,00 €</span></div>
-    <button class="btn btn-primary" id="checkoutBtn">Zur Kasse</button>
+    <div class="cart-total"><span class="lbl">Total</span><span class="amt" id="cartTotal">€0.00</span></div>
+    <button class="btn btn-primary" id="checkoutBtn">Checkout</button>
   </div>
 </aside>
 
@@ -796,32 +796,32 @@ footer{border-top:1px solid var(--line);padding:60px 0 30px;margin-top:40px}
    ============================================================ */
 const MENU = {
   pizza:[
-    {id:'p1',n:'Margherita DOC',d:'San-Marzano-Tomate, Büffelmozzarella, frisches Basilikum',p:12.90,r:4.9,img:'1604068549290-dea0e4a305ca'},
-    {id:'p2',n:'Diavola',d:'Scharfe Salami, Chili, Tomate, Mozzarella, Honig',p:14.50,r:4.8,img:'1628840042765-356cda07504e'},
-    {id:'p3',n:'Tartufo',d:'Trüffelcreme, Champignons, Mozzarella, Rucola, Parmesan',p:16.90,r:5.0,img:'1571997478779-2adcbbe9ab2f'},
-    {id:'p4',n:'Quattro Formaggi',d:'Gorgonzola, Parmesan, Mozzarella, Scamorza',p:15.50,r:4.7,img:'1513104890138-7c749659a591'},
+    {id:'p1',n:'Margherita DOC',d:'San Marzano tomato, buffalo mozzarella, fresh basil',p:12.90,r:4.9,img:'1604068549290-dea0e4a305ca'},
+    {id:'p2',n:'Diavola',d:'Spicy salami, chilli, tomato, mozzarella, honey',p:14.50,r:4.8,img:'1628840042765-356cda07504e'},
+    {id:'p3',n:'Tartufo',d:'Truffle cream, mushrooms, mozzarella, rocket, parmesan',p:16.90,r:5.0,img:'1571997478779-2adcbbe9ab2f'},
+    {id:'p4',n:'Quattro Formaggi',d:'Gorgonzola, parmesan, mozzarella, scamorza',p:15.50,r:4.7,img:'1513104890138-7c749659a591'},
   ],
   burger:[
-    {id:'b1',n:'Classic Smash',d:'Doppeltes Rindfleisch, Cheddar, Zwiebeln, Gurke, Haussauce',p:13.90,r:4.9,img:'1568901346375-23c9450c58cd'},
-    {id:'b2',n:'BBQ Bacon',d:'Bacon, BBQ-Sauce, Röstzwiebeln, doppelter Cheddar',p:15.50,r:4.8,img:'1553979459-d2229ba7433b'},
-    {id:'b3',n:'Trüffel Deluxe',d:'Trüffelmayo, Parmesan, Rucola, karamellisierte Zwiebeln',p:16.90,r:5.0,img:'1550547660-d9450f859349'},
-    {id:'b4',n:'Veggie Halloumi',d:'Gegrillter Halloumi, Avocado, Tomate, Kräutermayo',p:13.50,r:4.6,img:'1525059696034-4967a8e1dca2'},
+    {id:'b1',n:'Classic Smash',d:'Double beef, cheddar, onions, pickle, house sauce',p:13.90,r:4.9,img:'1568901346375-23c9450c58cd'},
+    {id:'b2',n:'BBQ Bacon',d:'Bacon, BBQ sauce, crispy onions, double cheddar',p:15.50,r:4.8,img:'1553979459-d2229ba7433b'},
+    {id:'b3',n:'Truffle Deluxe',d:'Truffle mayo, parmesan, rocket, caramelised onions',p:16.90,r:5.0,img:'1550547660-d9450f859349'},
+    {id:'b4',n:'Veggie Halloumi',d:'Grilled halloumi, avocado, tomato, herb mayo',p:13.50,r:4.6,img:'1525059696034-4967a8e1dca2'},
   ],
   beilagen:[
-    {id:'s1',n:'Pommes Frites',d:'Knusprig, mit Rosmarinsalz &amp; Aioli',p:4.90,r:4.7,img:'1573080496219-bb080dd4f877'},
-    {id:'s2',n:'Süßkartoffel-Pommes',d:'Mit Chipotle-Dip',p:5.90,r:4.8,img:'1639024471283-03518883512d'},
-    {id:'s3',n:'Caesar Salat',d:'Römersalat, Parmesan, Croutons, Caesar-Dressing',p:8.50,r:4.6,img:'1550304943-4f24f54ddde9'},
-    {id:'s4',n:'Mozzarella Sticks',d:'6 Stück, mit Marinara-Sauce',p:6.90,r:4.7,img:'1548340748-6968a26d3a7a'},
+    {id:'s1',n:'Fries',d:'Crispy, with rosemary salt &amp; aioli',p:4.90,r:4.7,img:'1573080496219-bb080dd4f877'},
+    {id:'s2',n:'Sweet Potato Fries',d:'With chipotle dip',p:5.90,r:4.8,img:'1639024471283-03518883512d'},
+    {id:'s3',n:'Caesar Salad',d:'Romaine, parmesan, croutons, Caesar dressing',p:8.50,r:4.6,img:'1550304943-4f24f54ddde9'},
+    {id:'s4',n:'Mozzarella Sticks',d:'6 pieces, with marinara sauce',p:6.90,r:4.7,img:'1548340748-6968a26d3a7a'},
   ],
   getranke:[
-    {id:'g1',n:'Hausgemachte Limonade',d:'Zitrone-Minze oder Blutorange',p:3.90,r:4.8,img:'1513558161293-cdaf765ed2fd'},
-    {id:'g2',n:'Craft Cola',d:'Regionale Manufaktur, 0,33&nbsp;l',p:3.50,r:4.6,img:'1581636625402-29b2a704ef13'},
-    {id:'g3',n:'Rotwein Primitivo',d:'Apulien, 0,2&nbsp;l',p:6.50,r:4.9,img:'1510812431401-41d2bd2722f3'},
-    {id:'g4',n:'Espresso',d:'Italienische Röstung',p:2.80,r:4.9,img:'1510591509098-f4fdc6d0ff04'},
+    {id:'g1',n:'Homemade Lemonade',d:'Lemon-mint or blood orange',p:3.90,r:4.8,img:'1513558161293-cdaf765ed2fd'},
+    {id:'g2',n:'Craft Cola',d:'Local craft, 0.33&nbsp;l',p:3.50,r:4.6,img:'1581636625402-29b2a704ef13'},
+    {id:'g3',n:'Primitivo Red Wine',d:'Puglia, 0.2&nbsp;l',p:6.50,r:4.9,img:'1510812431401-41d2bd2722f3'},
+    {id:'g4',n:'Espresso',d:'Italian roast',p:2.80,r:4.9,img:'1510591509098-f4fdc6d0ff04'},
   ],
 };
 const IMG=(id,w)=>`https://images.unsplash.com/photo-${id}?q=75&auto=format&fit=crop&w=${w||520}&h=${Math.round((w||520)*0.75)}`;
-const euro=n=>n.toFixed(2).replace('.',',')+' €';
+const euro=n=>'€'+n.toFixed(2);
 
 /* ============================================================
    Render menu
@@ -832,7 +832,7 @@ function renderMenu(cat){
   grid.innerHTML = MENU[cat].map((it,i)=>`
     <article class="dish" style="animation-delay:${i*80}ms">
       <div class="dish-img">
-        <button class="fav" aria-label="Zu Favoriten" onclick="this.classList.toggle('on')">
+        <button class="fav" aria-label="Add to favourites" onclick="this.classList.toggle('on')">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
         </button>
         <img src="${IMG(it.img)}" alt="${it.n}" loading="lazy" width="520" height="390"
@@ -840,14 +840,14 @@ function renderMenu(cat){
       </div>
       <div class="dish-top">
         <h3>${it.n}</h3>
-        <span class="rating">${star(it.r)} ${String(it.r).replace('.',',')}</span>
+        <span class="rating">${star(it.r)} ${it.r}</span>
       </div>
       <p class="desc">${it.d}</p>
       <div class="dish-foot">
         <span class="price">${euro(it.p)}</span>
         <button class="add-btn" onclick="addToCart('${it.id}','${cat}')">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
-          Hinzufügen
+          Add
         </button>
       </div>
     </article>`).join('');
@@ -878,7 +878,7 @@ function addToCart(id,cat){
   if(cart[id]) cart[id].qty++;
   else cart[id]={item:findItem(id,cat),cat,qty:1};
   updateCart(true);
-  toast(`${cart[id].item.n} hinzugefügt`);
+  toast(`${cart[id].item.n} added`);
 }
 function changeQty(id,delta){
   if(!cart[id])return;
@@ -896,7 +896,7 @@ function updateCart(bump){
   if(items.length===0){
     cartBody.innerHTML=`<div class="cart-empty">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-      <p>Dein Warenkorb ist noch leer.<br/>Stöbere durch unsere Speisekarte!</p></div>`;
+      <p>Your cart is empty.<br/>Browse our menu!</p></div>`;
     return;
   }
   cartBody.innerHTML=items.map(c=>`
@@ -907,9 +907,9 @@ function updateCart(bump){
         <div class="ci-price">${euro(c.item.p)}</div>
       </div>
       <div class="stepper">
-        <button onclick="changeQty('${c.item.id}',-1)" aria-label="Weniger">−</button>
+        <button onclick="changeQty('${c.item.id}',-1)" aria-label="Less">−</button>
         <span class="qv">${c.qty}</span>
-        <button onclick="changeQty('${c.item.id}',1)" aria-label="Mehr">+</button>
+        <button onclick="changeQty('${c.item.id}',1)" aria-label="More">+</button>
       </div>
     </div>`).join('');
 }
@@ -924,8 +924,8 @@ document.getElementById('cartBtn').onclick=openCart;
 document.getElementById('cartClose').onclick=closeCart;
 scrim.onclick=closeCart;
 document.getElementById('checkoutBtn').onclick=()=>{
-  if(Object.keys(cart).length===0){toast('Dein Warenkorb ist leer');return;}
-  toast('Bestellung erfasst – Demo ✓');
+  if(Object.keys(cart).length===0){toast('Your cart is empty');return;}
+  toast('Order placed – demo ✓');
   closeCart();
 };
 
@@ -965,7 +965,7 @@ form.addEventListener('submit',e=>{
   const date=document.getElementById('r-date').value;
   const time=document.getElementById('r-time').value;
   document.getElementById('successText').textContent=
-    `${name}, wir haben deine Reservierung für den ${date.split('-').reverse().join('.')} um ${time} Uhr erhalten.`;
+    `${name}, we've received your reservation for ${date.split('-').reverse().join('/')} at ${time}.`;
   document.getElementById('formInner').style.display='none';
   document.getElementById('formSuccess').classList.add('show');
 });
